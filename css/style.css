@@ -215,7 +215,7 @@ nav {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
@@ -830,6 +830,7 @@ footer {
 
 .modal-content {
   background-color: var(--card);
+  border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   max-width: 600px;
   width: 90%;
@@ -843,7 +844,7 @@ footer {
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   color: white;
   padding: 25px 30px;
-  
+  border-radius: 15px 15px 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -895,15 +896,6 @@ footer {
   border-radius: 10px;
   border-left: 4px solid var(--primary);
 }
-
-.privacy-section:hover,
-.terms-section:hover {
-  background-color: rgba(0, 121, 107, 0.1);
-  border-left-color: var(--accent);
-  transition: background-color 0.3s ease, border-left-color 0.3s ease;
-
-}
-
 
 .privacy-section:last-child,
 .terms-section:last-child {
@@ -1212,7 +1204,6 @@ footer {
 .about-text-content {
   display: flex;
   flex-direction: column;
-  height: 190px;
 }
 
 .about-video-container {
@@ -1221,7 +1212,6 @@ footer {
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 300px;
 }
 
 .about-video-container:hover {
